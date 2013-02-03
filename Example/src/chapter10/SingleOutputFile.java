@@ -1,5 +1,5 @@
 package chapter10;
-import java.util.Scanner;
+
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.FileInputStream;
@@ -15,7 +15,7 @@ public class SingleOutputFile {
 	public void writeTo(String file){
 		int input, temp=0;
 		fileName = file;
-		Scanner kbd = new Scanner(System.in);
+
 		ObjectInputStream inputStream = null;
 		ObjectOutputStream outputStream = null;
 		
